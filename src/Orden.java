@@ -74,7 +74,7 @@ public class Orden {
         total -= producto.getPrecio();
     }
 
-    public void entregarOrden() {
+    public void removerProducto() {
         entregada = true;
         System.out.println("Orden " + idOrden + " entregada");
     }

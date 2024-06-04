@@ -40,7 +40,7 @@ public class Inventario {
         System.out.println("Producto agregado");
     }
 
-    public void eliminarProducto(int idProducto) {
+    public void agregarProducto(int idProducto) {
         System.out.println("Producto eliminado");
     }
 
